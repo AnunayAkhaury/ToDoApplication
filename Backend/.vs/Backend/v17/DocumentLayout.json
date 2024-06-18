@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\AnunayAkhaury\\Work\\ToDoApp\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anunayakhaury\\work\\todoapp\\backend\\dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B4AF63-B720-4429-ADA0-9FC58647ABF7}|BuisnessLogic\\BuisnessLogic.csproj|c:\\users\\anunayakhaury\\work\\todoapp\\backend\\buisnesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B4AF63-B720-4429-ADA0-9FC58647ABF7}|BuisnessLogic\\BuisnessLogic.csproj|solutionrelative:buisnesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\AnunayAkhaury\\Work\\ToDoApp\\Backend\\DataAccess\\Class1.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Class1.cs",
+              "ToolTip": "C:\\Users\\AnunayAkhaury\\Work\\ToDoApp\\Backend\\DataAccess\\Class1.cs",
+              "RelativeToolTip": "DataAccess\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T13:00:10.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\AnunayAkhaury\\Work\\ToDoApp\\Backend\\BuisnessLogic\\Class1.cs",
+              "RelativeDocumentMoniker": "BuisnessLogic\\Class1.cs",
+              "ToolTip": "C:\\Users\\AnunayAkhaury\\Work\\ToDoApp\\Backend\\BuisnessLogic\\Class1.cs",
+              "RelativeToolTip": "BuisnessLogic\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T12:59:52.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
