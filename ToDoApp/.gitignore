@@ -1,0 +1,92 @@
+# Ignore appsettings.json but include a template
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Do not ignore example configuration files
+!appsettings.example.json
+
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.cache
+*.pdb
+*.mdb
+*.ilk
+*.log
+*.vspscc
+*.vssscc
+.vscode/
+.idea/
+_ReSharper.Caches/
+
+# Visual Studio Code settings
+.vscode/
+
+# Rider settings
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Node.js / React build artifacts
+node_modules/
+build/
+dist/
+.env
+
+# Log files
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# react native
+.expo/
+
+# misc
+.DS_Store
+*.pem
+*.crt
+*.key
