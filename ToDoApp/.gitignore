@@ -82,11 +82,32 @@ jspm_packages/
 .env.test.local
 .env.production.local
 
-# react native
-.expo/
-
 # misc
 .DS_Store
 *.pem
 *.crt
 *.key
+
+
+# Visual Studio files
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.ncb
+*.aps
+*.idx
+*.ilk
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc

@@ -1,73 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anuakh02\\Work\\Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\backend\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\backend\\presentationlayer\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\presentationlayer\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\backend\\presentationlayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\presentationlayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\backend\\presentationlayer\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\presentationlayer\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\backend\\presentationlayer\\appsettings.example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\presentationlayer\\appsettings.example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\appsettings.example.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9B4AF63-B720-4429-ADA0-9FC58647ABF7}|BuisnessLogic\\BuisnessLogic.csproj|c:\\users\\anuakh02\\work\\backend\\buisnesslogic\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9B4AF63-B720-4429-ADA0-9FC58647ABF7}|BuisnessLogic\\BuisnessLogic.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\buisnesslogic\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9B4AF63-B720-4429-ADA0-9FC58647ABF7}|BuisnessLogic\\BuisnessLogic.csproj|solutionrelative:buisnesslogic\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9B4AF63-B720-4429-ADA0-9FC58647ABF7}|BuisnessLogic\\BuisnessLogic.csproj|c:\\users\\anuakh02\\work\\backend\\buisnesslogic\\interfaces\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F9B4AF63-B720-4429-ADA0-9FC58647ABF7}|BuisnessLogic\\BuisnessLogic.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\buisnesslogic\\interfaces\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F9B4AF63-B720-4429-ADA0-9FC58647ABF7}|BuisnessLogic\\BuisnessLogic.csproj|solutionrelative:buisnesslogic\\interfaces\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\backend\\dataaccess\\interfaces\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\dataaccess\\interfaces\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\interfaces\\todorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\backend\\dataaccess\\interfaces\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\dataaccess\\interfaces\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\interfaces\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\backend\\dataaccess\\models\\todoevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\dataaccess\\models\\todoevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\models\\todoevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\backend\\presentationlayer\\presentationlayer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\presentationlayer\\presentationlayer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\presentationlayer.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\backend\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\backend\\dataaccess\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\dataaccess\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\backend\\dataaccess\\migrations\\20240618182221_addactiontodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\dataaccess\\migrations\\20240618182221_addactiontodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\migrations\\20240618182221_addactiontodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\backend\\dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60D19D0D-D407-40F5-8F75-71B1575A8624}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\backend\\presentationlayer\\presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\presentationlayer\\presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\presentationlayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\backend\\presentationlayer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|c:\\users\\anuakh02\\work\\todoapp\\backend\\presentationlayer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F6F5819D-64C2-4570-8E85-53BA2248BF37}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -88,24 +88,23 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "appsettings.example.json",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\appsettings.example.json",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\appsettings.example.json",
               "RelativeDocumentMoniker": "PresentationLayer\\appsettings.example.json",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\appsettings.example.json",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\appsettings.example.json",
               "RelativeToolTip": "PresentationLayer\\appsettings.example.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-19T13:17:33.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-19T13:17:33.556Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ToDoController.cs",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\Controllers\\ToDoController.cs",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\Controllers\\ToDoController.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Controllers\\ToDoController.cs",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\Controllers\\ToDoController.cs",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\Controllers\\ToDoController.cs",
               "RelativeToolTip": "PresentationLayer\\Controllers\\ToDoController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwC8AAAAfAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwC8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T11:55:13.552Z",
               "EditorCaption": ""
@@ -114,37 +113,35 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ToDoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Interfaces\\ToDoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Interfaces\\ToDoRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Interfaces\\ToDoRepository.cs",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Interfaces\\ToDoRepository.cs",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Interfaces\\ToDoRepository.cs",
               "RelativeToolTip": "DataAccess\\Interfaces\\ToDoRepository.cs",
               "ViewState": "AQIAABYAAAAAAAAAAAAkwB8AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:38:29.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T19:38:29.968Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "IToDoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Interfaces\\IToDoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Interfaces\\IToDoRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Interfaces\\IToDoRepository.cs",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Interfaces\\IToDoRepository.cs",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Interfaces\\IToDoRepository.cs",
               "RelativeToolTip": "DataAccess\\Interfaces\\IToDoRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T19:36:38.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T19:36:38.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\Program.cs",
               "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\Program.cs",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\Program.cs",
               "RelativeToolTip": "PresentationLayer\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAHAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswDEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-18T15:01:19.303Z",
               "EditorCaption": ""
@@ -153,157 +150,145 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "DataAccess.csproj",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\DataAccess.csproj",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\DataAccess.csproj",
               "RelativeDocumentMoniker": "DataAccess\\DataAccess.csproj",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\DataAccess.csproj",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\DataAccess.csproj",
               "RelativeToolTip": "DataAccess\\DataAccess.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-18T14:54:20.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T14:54:20.039Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ToDoEvents.cs",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Models\\ToDoEvents.cs",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Models\\ToDoEvents.cs",
               "RelativeDocumentMoniker": "DataAccess\\Models\\ToDoEvents.cs",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Models\\ToDoEvents.cs",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Models\\ToDoEvents.cs",
               "RelativeToolTip": "DataAccess\\Models\\ToDoEvents.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T14:20:42.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T14:20:42.598Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "PresentationLayer.http",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\PresentationLayer.http",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\PresentationLayer.http",
               "RelativeDocumentMoniker": "PresentationLayer\\PresentationLayer.http",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\PresentationLayer.http",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\PresentationLayer.http",
               "RelativeToolTip": "PresentationLayer\\PresentationLayer.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-06-18T15:01:11.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T15:01:11.981Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\appsettings.Development.json",
               "RelativeDocumentMoniker": "PresentationLayer\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\appsettings.Development.json",
               "RelativeToolTip": "PresentationLayer\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-18T15:06:02.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T15:06:02.127Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\appsettings.json",
               "RelativeDocumentMoniker": "PresentationLayer\\appsettings.json",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\appsettings.json",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\appsettings.json",
               "RelativeToolTip": "PresentationLayer\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-18T15:06:03.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T15:06:03.667Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "IToDoService.cs",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\BuisnessLogic\\Interfaces\\IToDoService.cs",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\BuisnessLogic\\Interfaces\\IToDoService.cs",
               "RelativeDocumentMoniker": "BuisnessLogic\\Interfaces\\IToDoService.cs",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\BuisnessLogic\\Interfaces\\IToDoService.cs",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\BuisnessLogic\\Interfaces\\IToDoService.cs",
               "RelativeToolTip": "BuisnessLogic\\Interfaces\\IToDoService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T20:19:58.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T20:19:58.979Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ToDoService.cs",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\BuisnessLogic\\Services\\ToDoService.cs",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\BuisnessLogic\\Services\\ToDoService.cs",
               "RelativeDocumentMoniker": "BuisnessLogic\\Services\\ToDoService.cs",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\BuisnessLogic\\Services\\ToDoService.cs",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\BuisnessLogic\\Services\\ToDoService.cs",
               "RelativeToolTip": "BuisnessLogic\\Services\\ToDoService.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAYwB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T20:27:59.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T20:27:59.118Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeToolTip": "DataAccess\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T18:23:14.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T18:23:14.274Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "DataAccess\\Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T14:52:48.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T14:52:48.774Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PresentationLayer\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\Properties\\launchSettings.json",
               "RelativeToolTip": "PresentationLayer\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-18T15:00:44.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T15:00:44.736Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "20240618182221_AddActionToDb.cs",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Migrations\\20240618182221_AddActionToDb.cs",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Migrations\\20240618182221_AddActionToDb.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240618182221_AddActionToDb.cs",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\DataAccess\\Migrations\\20240618182221_AddActionToDb.cs",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\DataAccess\\Migrations\\20240618182221_AddActionToDb.cs",
               "RelativeToolTip": "DataAccess\\Migrations\\20240618182221_AddActionToDb.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T18:22:22.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T18:22:22.178Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "PresentationLayer",
-              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\PresentationLayer.csproj",
+              "Title": "PresentationLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\PresentationLayer.csproj",
               "RelativeDocumentMoniker": "PresentationLayer\\PresentationLayer.csproj",
-              "ToolTip": "C:\\Users\\anuakh02\\Work\\Backend\\PresentationLayer\\PresentationLayer.csproj",
+              "ToolTip": "C:\\Users\\anuakh02\\Work\\ToDoApp\\Backend\\PresentationLayer\\PresentationLayer.csproj",
               "RelativeToolTip": "PresentationLayer\\PresentationLayer.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-18T18:10:38.868Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-18T18:10:38.868Z"
             }
           ]
         }
