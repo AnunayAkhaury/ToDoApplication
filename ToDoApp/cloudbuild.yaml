@@ -1,11 +1,11 @@
 steps:
-# ========== 1) Build & Push the .NET Backend ========== 
+# ========== 1) Build & Push the .NET Backend ==========
 - name: 'gcr.io/cloud-builders/docker'
   id: build-backend
   args:
     - build
     - '-t'
-    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-backend:$SHORT_SHA'
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-backend:$SHORT_SHA'
     - '-f'
     - 'Backend/Dockerfile'
     - 'Backend'
@@ -14,7 +14,7 @@ steps:
   id: push-backend
   args:
     - push
-    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-backend:$SHORT_SHA'
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-backend:$SHORT_SHA'
 
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   id: deploy-backend
@@ -22,14 +22,14 @@ steps:
   args:
     - run
     - deploy
-    - 'todo-backend'
+    - '$_SERVICE_NAME-backend'
     - '--image'
-    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-backend:$SHORT_SHA'
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-backend:$SHORT_SHA'
     - '--region'
-    - 'REGION'
+    - '$_DEPLOY_REGION'
     - '--platform'
-    - 'managed'
-    # optionally: --allow-unauthenticated if you want it public
+    - '$_PLATFORM'
+    # optionally: '--allow-unauthenticated'
 
 # ========== 2) Build & Push the React Frontend ==========
 - name: 'gcr.io/cloud-builders/docker'
@@ -37,7 +37,7 @@ steps:
   args:
     - build
     - '-t'
-    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-frontend:$SHORT_SHA'
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-frontend:$SHORT_SHA'
     - '-f'
     - 'Frontend/Dockerfile'
     - 'Frontend'
@@ -46,7 +46,7 @@ steps:
   id: push-frontend
   args:
     - push
-    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-frontend:$SHORT_SHA'
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-frontend:$SHORT_SHA'
 
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   id: deploy-frontend
@@ -54,15 +54,15 @@ steps:
   args:
     - run
     - deploy
-    - 'todo-frontend'
+    - '$_SERVICE_NAME-frontend'
     - '--image'
-    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-frontend:$SHORT_SHA'
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-frontend:$SHORT_SHA'
     - '--region'
-    - 'REGION'
+    - '$_DEPLOY_REGION'
     - '--platform'
-    - 'managed'
-    # optionally: --allow-unauthenticated if you want it public
+    - '$_PLATFORM'
+    # optionally: '--allow-unauthenticated'
 
 images:
-  - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-backend:$SHORT_SHA'
-  - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-frontend:$SHORT_SHA'
+  - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-backend:$SHORT_SHA'
+  - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-frontend:$SHORT_SHA'
