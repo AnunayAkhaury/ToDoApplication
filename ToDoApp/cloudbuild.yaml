@@ -1,0 +1,70 @@
+steps:
+# ========== 1) Build & Push the .NET Backend ==========
+- name: 'gcr.io/cloud-builders/docker'
+  id: build-backend
+  args:
+    - build
+    - '-t'
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-backend:$SHORT_SHA'
+    - '-f'
+    - 'ToDoApp/Backend/Dockerfile'
+    - 'ToDoApp/Backend'
+
+- name: 'gcr.io/cloud-builders/docker'
+  id: push-backend
+  args:
+    - push
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-backend:$SHORT_SHA'
+
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  id: deploy-backend
+  entrypoint: gcloud
+  args:
+    - run
+    - deploy
+    - '$_SERVICE_NAME-backend'
+    - '--image'
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-backend:$SHORT_SHA'
+    - '--region'
+    - '$_DEPLOY_REGION'
+    - '--platform'
+    - '$_PLATFORM'
+    # optionally: '--allow-unauthenticated'
+
+# ========== 2) Build & Push the React Frontend ==========
+- name: 'gcr.io/cloud-builders/docker'
+  id: build-frontend
+  args:
+    - build
+    - '-t'
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-frontend:$SHORT_SHA'
+    - '-f'
+    - 'ToDoApp/Frontend/Dockerfile'
+    - 'ToDoApp/Frontend'
+
+- name: 'gcr.io/cloud-builders/docker'
+  id: push-frontend
+  args:
+    - push
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-frontend:$SHORT_SHA'
+
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  id: deploy-frontend
+  entrypoint: gcloud
+  args:
+    - run
+    - deploy
+    - '$_SERVICE_NAME-frontend'
+    - '--image'
+    - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-frontend:$SHORT_SHA'
+    - '--region'
+    - '$_DEPLOY_REGION'
+    - '--platform'
+    - '$_PLATFORM'
+    # optionally: '--allow-unauthenticated'
+
+images:
+  - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-backend:$SHORT_SHA'
+  - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-frontend:$SHORT_SHA'
+options:
+  logging: CLOUD_LOGGING_ONLY
