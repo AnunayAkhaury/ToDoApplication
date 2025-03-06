@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 defaults:
   run:
-    working-directory: Todo/Backend
+    working-directory: ToDoApp/Backend
 jobs:
   build:
     runs-on: windows-latest
