@@ -3,8 +3,10 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
 WORKDIR /app
 
 # Copy .NET project files and restore
-COPY BusinessLogic/BusinessLogic.csproj BusinessLogic/
-COPY DataAccess/DataAccess.csproj DataAccess/
+COPY Backend/BusinessLogic/BusinessLogic.csproj Backend/BusinessLogic/
+COPY Backend/DataAccess/DataAccess.csproj Backend/DataAccess/
+COPY Backend/Backend.sln Backend/
+
 COPY Backend.sln ./
 
 
