@@ -2,7 +2,8 @@ import './App.css'
 import React, { useEffect, useState } from 'react'
 import TaskForm from './components/TaskForm'
 import TaskEvent from './components/TaskEvent'
-import axios from 'axios'
+const axios = require('axios');
+
 
 const App = () => {
   const [tasks, setTasks] = useState([])
