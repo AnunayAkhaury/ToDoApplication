@@ -1,0 +1,68 @@
+steps:
+# ========== 1) Build & Push the .NET Backend ========== 
+- name: 'gcr.io/cloud-builders/docker'
+  id: build-backend
+  args:
+    - build
+    - '-t'
+    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-backend:$SHORT_SHA'
+    - '-f'
+    - 'Backend/Dockerfile'
+    - 'Backend'
+
+- name: 'gcr.io/cloud-builders/docker'
+  id: push-backend
+  args:
+    - push
+    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-backend:$SHORT_SHA'
+
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  id: deploy-backend
+  entrypoint: gcloud
+  args:
+    - run
+    - deploy
+    - 'todo-backend'
+    - '--image'
+    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-backend:$SHORT_SHA'
+    - '--region'
+    - 'REGION'
+    - '--platform'
+    - 'managed'
+    # optionally: --allow-unauthenticated if you want it public
+
+# ========== 2) Build & Push the React Frontend ==========
+- name: 'gcr.io/cloud-builders/docker'
+  id: build-frontend
+  args:
+    - build
+    - '-t'
+    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-frontend:$SHORT_SHA'
+    - '-f'
+    - 'Frontend/Dockerfile'
+    - 'Frontend'
+
+- name: 'gcr.io/cloud-builders/docker'
+  id: push-frontend
+  args:
+    - push
+    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-frontend:$SHORT_SHA'
+
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  id: deploy-frontend
+  entrypoint: gcloud
+  args:
+    - run
+    - deploy
+    - 'todo-frontend'
+    - '--image'
+    - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-frontend:$SHORT_SHA'
+    - '--region'
+    - 'REGION'
+    - '--platform'
+    - 'managed'
+    # optionally: --allow-unauthenticated if you want it public
+
+images:
+  - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-backend:$SHORT_SHA'
+  - 'REGION-docker.pkg.dev/$PROJECT_ID/$REPO_NAME/todo-frontend:$SHORT_SHA'
