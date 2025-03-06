@@ -3,7 +3,10 @@ FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build-env
 WORKDIR /app
 
 # Copy .NET project files and restore
-COPY *.csproj ./
+COPY PresentationLayer/*.csproj ./PresentationLayer/
+COPY BusinessLogic/*.csproj ./BusinessLogic/
+COPY DataAccess/*.csproj ./DataAccess/
+
 RUN dotnet restore
 
 # Copy the rest of your .NET code
