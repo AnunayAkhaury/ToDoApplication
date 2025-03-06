@@ -66,3 +66,5 @@ steps:
 images:
   - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-backend:$SHORT_SHA'
   - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-frontend:$SHORT_SHA'
+options:
+  logging: CLOUD_LOGGING_ONLY
