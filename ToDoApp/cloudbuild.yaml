@@ -7,8 +7,8 @@ steps:
     - '-t'
     - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-backend:$SHORT_SHA'
     - '-f'
-    - 'Backend/Dockerfile'
-    - 'Backend'
+    - 'ToDoApp/Backend/Dockerfile'
+    - 'ToDoApp/Backend'
 
 - name: 'gcr.io/cloud-builders/docker'
   id: push-backend
@@ -39,8 +39,8 @@ steps:
     - '-t'
     - '$_AR_HOSTNAME/$_AR_PROJECT_ID/$_AR_REPOSITORY/todo-frontend:$SHORT_SHA'
     - '-f'
-    - 'Frontend/Dockerfile'
-    - 'Frontend'
+    - 'ToDoApp/Frontend/Dockerfile'
+    - 'ToDoApp/Frontend'
 
 - name: 'gcr.io/cloud-builders/docker'
   id: push-frontend
